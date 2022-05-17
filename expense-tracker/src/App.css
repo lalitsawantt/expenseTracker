@@ -1,0 +1,198 @@
+:root{
+  --backgroung-pink:#f6f6f6;
+  --border-pink:#b0b0b0;
+  --income-green: rgb(12, 128, 87);
+}
+
+body{
+  background-color: var(--backgroung-pink);
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+
+h2{
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+
+.header{
+  justify-content: center;
+  /* background-color: plum; */
+  font-size: 1.2rem;
+}
+
+.balance{
+  font-weight: 100;
+  font-size:medium ;
+  width: 24rem;
+  /* display: flex; */
+  justify-items: center;
+  min-height: 5rem;
+  border-bottom: 1px solid var(--border-pink);
+  margin-bottom: 1rem;
+}
+
+.balance-text{
+  font-weight: bold;
+  font-size: 1.2rem;}
+
+.balance-number{
+  font-size: 3rem;
+}
+
+
+.overview{
+  width: 23.8rem;
+  height: 6rem;
+  /* border: 1px solid var(--border-pink); */
+  box-shadow: 2px 2px 2px 2px var(--border-pink);
+  display: flex;
+  background-color: var(--backgroung-pink);
+  /* gap: 0.5rem; */
+}
+.income{
+  /* display: flex; */
+  padding-left: 15%;
+  width: 50%;
+  height: 30%;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.expense{
+  padding-top: 1rem;
+  padding-left: 20%;
+  width: 50%;
+  height: 30%;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.income-text{
+  /* display: flex; */
+  justify-content: center;
+  color: var(--income-green);
+  height: 30%;
+  padding-bottom: 1rem;
+
+}
+.expense-text{
+  color: #7c2c2c;
+}
+
+.expense-history{
+  margin-top: 1rem;
+}
+
+.history-header{
+  padding-bottom: 0.3rem;
+  width: 24rem;
+  border-bottom: 1px solid var(--border-pink);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.history-list{
+  /* padding-top: 1rem; */
+  padding-left: 0.5rem;
+  width: 24rem;
+  max-height: 10rem;
+  overflow-y: auto;
+  /* display: inline; */
+  justify-items: center;
+}
+.single-expense{
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+  padding-right:0.5rem;
+  margin-top: 1rem;
+  width: 22rem;
+  height: 2rem;
+  border-bottom: 1px solid var(--border-pink);
+  justify-content: space-between;
+}
+.ex-red{
+  border-right: 5px solid #7c2c2c;
+}
+.in-green{
+  border-right: 5px solid var(--income-green);
+}
+.description{
+  display: flex;
+  justify-content: flex-start;
+}
+.value{
+  display: flex;
+  justify-content: flex-end;
+}
+.add-expense{
+  margin-top: 1rem;
+}
+.ae-header{
+  /* padding-left: 0.5rem; */
+  /* border-bottom: 1px solid var(--border-pink); */
+  /* font-weight: bold; */
+  /* font-size: 1.2rem; */
+  /* width: 24rem; */
+
+
+  padding-bottom: 0.3rem;
+  width: 24rem;
+  border-bottom: 1px solid var(--border-pink);
+  font-weight: bold;
+  font-size: 1.2rem;
+
+
+}
+.expense-desc{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.ex-desc-text{
+  padding-left: 1rem;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.input-box{
+  margin-top: 0.5rem;
+  display: flex;
+  justify-items: center;
+  padding-left: 1rem;
+
+}
+input{
+  border: 1px solid rgb(198, 218, 230);
+  height: 2rem;
+  width: 22rem;
+}
+
+input:focus{
+  outline: 1px solid var(--border-pink);
+}
+
+.note{
+  font-size: 0.6rem;
+}
+
+.ex-amount-text{
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.button-area{
+  margin-top: 1rem;
+}
+button{
+  width: 24rem;
+  height: 2.5rem;
+  border-radius: 0;
+  outline: none;
+  border: 1px solid rgba(8, 164, 237, 0.624);
+  background-color: rgb(77, 141, 237);
+  color: #ffffff;
+}
