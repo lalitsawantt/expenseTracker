@@ -29,3 +29,11 @@ A third party library was used to implement this functionality where the csv dat
   * The excel file for transactions can also specify the date of the transaction and also the total balance, the total income and the total expenses occured.
   * A database can be implemented to support persistent data storage so that this app can actually be used, but that would also require user configurations to be added.
   * A graph based on the weekly/monthly/yearly spendings and incomes to help the user identify their transaction patterns.
+
+## Installation
+To install this project:
+1. Clone the repo into your local machine by using `git clone https://github.com/lalitsawantt/expenseTracker.git`.
+2. Open a terminal/command prompt window in the cloned repo.
+3. Use `npm install` to install all the packages and libraries.
+4. Use `npm start` or `npm run start` to start the project on localhost:3000
+5. Have fun
